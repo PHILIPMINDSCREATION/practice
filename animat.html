@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box;
+			margin: 20px;}
+
+			body{background-image: linear-gradient(to right, green, lightgreen);}
+		ul{list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: black;
+			border-radius: 10px;
+			height: 100px;}
+
+				li{float: left;}
+				li a {display: block;
+					color: white;
+					text-align: center;
+					padding: ;
+					text-decoration: none;}
+
+					li a:hover{background-image: linear-gradient(red, yellow);}
+
+					li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+li.dropdown {
+  display: inline-block;
+  padding-bottom: -50px;
+  padding-top: -50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: -10px;}
+
+.dropdown-content a {
+  color: white;
+  padding:16px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+.container2{display: flex;}
+input {width: 40%}
+label {font-size: 20px;}
+form {box-shadow: 10px 10px 5px green;}
+button:hover{background-color: green;}
+
+.src{width: 200px;
+	height: 200px;
+	background: red;
+	transition: width 2s, height 2s, transform 2s;
+}
+.src:hover{width: 300px;
+	height: 300px;
+	transform: rotate(360deg);}
+
+	.cont2{display: flex;}
+
+	.b1{width: 100px;
+		height: 100px;
+		transition: width 2s, height 2s, transform 2s;
+}
+
+.b1:hover{
+	width: 300px;
+	height: 300px;}
+
+	.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+a:hover{background-color: #4CAF50;
+color: white;}
+
+	
+
+	</style>
+</head>
+<body>
+	<ul >
+		<img src="code.jpg" style="float: left;height: 60px; border-radius: 50%;">
+		<li><a href="Home">Home</a></li>
+		<li class="dropdown">
+			<a href="" class="dropbtn">Event</a>
+			<div class="dropdown-content">
+				<a href="Ticketingplatform">Ticketing platform</a>
+				<a href="appbasedplatform">App based platform</a>
+				<a href="virtualplatform">virtual platform</a>
+				<a href="outofthebox">Out of the box</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="" class="dropbtn">Service</a>
+			<div class="dropdown-content">
+				<a href="Webdevelopement">Web developement</a>
+				<a href="Webdesign">Web design</a>
+				<a href="Applicationsoftware">Application software</a>
+				<a href="softwareengeneering">Software engeneering</a>
+			</div>
+		</li>
+	</ul>
+	<div class="container2">
+		<div class="card">
+			<img class="src" src="anim.jpg" style="margin-left: 50px;border-radius: 30%">
+		</div>
+		<div>
+			<h1 style="margin-left: 200px">ABOUT US</h1>
+			<p style="margin-left: 30px;font-style: italic;font-size: 20px">Advance your career with the computer program. Join an exciting digital field.Master the latest in software development, IT ops, AI, machine learning, security & more. Start learning today with a <br>free 10 day trial! Expert-Led Courses. Hands-on Learning. Role IQ. Certification Prep. Offline <br>Access. Mobile Apps. Skill Assessments. Cloud Labs. Courses: Software Development, IT Ops, <br>Cyber Security, Cloud Computing, Machine Learning, AI, Big Data.</p>
+		</div>
+	</div><hr>
+	<h1 style="text-align: center;font-size: 40px;color: lightgreen">OUR TEAM</h1>
+	<div class="cont2">
+		<div>
+			<img class="b1" src="b1.jpg" style="width: 250px;height: 250px;border-radius: 50%;margin-left: 140px"><br>
+			<p style="margin-left: 195px;color: blue"><b>Josephine Kyle</b></p>
+		</div>
+		<div>
+			<img class="b2" src="b2.jpg" style="width: 250px;height: 250px;border-radius: 50%;"><br>
+			<p style="margin-left: 80px;color: blue"><b>George Brian</b></p>
+		</div>
+		<div>
+			<img class="b3" src="b3.jpg" style="width: 250px;height: 250px;border-radius: 50%;"><br>
+			<p style="margin-left: 80px;color: blue"><b>Joseph Antonio</b></p>
+		</div>
+	</div>
+	<br><br>
+	<h1 style="text-align: center;font-size: 40px;color: lightgreen">OUR CLIENTS</h1>
+	<img style="width:100px;margin-left: 100px;border-radius: 5px;" src="lagos.jpg">
+	<img style="width:180px;margin-left: 140px;border-radius: 5px" src="glogo.png">
+	<img style="width: 120px;margin-left: 150px;border-radius: 5px" src="miclogo.jpg">
+	<img style="width: 150px;margin-left: 200px;border-radius: 5px" src="andela.png">
+	<br><br><br><br>
+	<div style="margin-left: 60px; margin-right: 60px">
+		<h1 style="text-align: center;font-size: 40px">NEWS LETTERS</h1>
+		<form>
+			<label>Name:</label>
+			<input type="text" name="Name"><br><br>
+			<label>Email:</label>
+			<input type="text" name="Email"><br><br>
+			<label>Phone:</label>
+			<input type="text" name="Phone"><br><br>
+			<button style="width: 15%;border-radius: 8px;color: lightgreen;font-size: 20px;padding-left: 15px"><b>SUBMIT<b></button>
+		</form>
+	</div>
+	<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+	<footer style="text-align: center;border: 1px solid lightgreen;background-color: lightgreen"> &#169 Boldlinks Technology Solutions</footer>
+</body>
+</html>
